@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		D90CCFC42D5E3A0C00BC55F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D90CCFAB2D5E3A0800BC55F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D90CCFB22D5E3A0900BC55F7;
+			remoteInfo = Osmanthus;
+		};
+		D90CCFCE2D5E3A0C00BC55F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D90CCFAB2D5E3A0800BC55F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D90CCFB22D5E3A0900BC55F7;
+			remoteInfo = Osmanthus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D90CCFB32D5E3A0900BC55F7 /* Osmanthus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Osmanthus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D90CCFC32D5E3A0C00BC55F7 /* OsmanthusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OsmanthusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D90CCFCD2D5E3A0C00BC55F7 /* OsmanthusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OsmanthusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D90CCFB52D5E3A0900BC55F7 /* Osmanthus */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Osmanthus;
+			sourceTree = "<group>";
+		};
+		D90CCFC62D5E3A0C00BC55F7 /* OsmanthusTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OsmanthusTests;
+			sourceTree = "<group>";
+		};
+		D90CCFD02D5E3A0C00BC55F7 /* OsmanthusUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OsmanthusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D90CCFB02D5E3A0900BC55F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D90CCFC02D5E3A0C00BC55F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D90CCFCA2D5E3A0C00BC55F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D90CCFAA2D5E3A0800BC55F7 = {
+			isa = PBXGroup;
+			children = (
+				D90CCFB52D5E3A0900BC55F7 /* Osmanthus */,
+				D90CCFC62D5E3A0C00BC55F7 /* OsmanthusTests */,
+				D90CCFD02D5E3A0C00BC55F7 /* OsmanthusUITests */,
+				D90CCFB42D5E3A0900BC55F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D90CCFB42D5E3A0900BC55F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D90CCFB32D5E3A0900BC55F7 /* Osmanthus.app */,
+				D90CCFC32D5E3A0C00BC55F7 /* OsmanthusTests.xctest */,
+				D90CCFCD2D5E3A0C00BC55F7 /* OsmanthusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D90CCFB22D5E3A0900BC55F7 /* Osmanthus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D90CCFD72D5E3A0C00BC55F7 /* Build configuration list for PBXNativeTarget "Osmanthus" */;
+			buildPhases = (
+				D90CCFAF2D5E3A0900BC55F7 /* Sources */,
+				D90CCFB02D5E3A0900BC55F7 /* Frameworks */,
+				D90CCFB12D5E3A0900BC55F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D90CCFB52D5E3A0900BC55F7 /* Osmanthus */,
+			);
+			name = Osmanthus;
+			packageProductDependencies = (
+			);
+			productName = Osmanthus;
+			productReference = D90CCFB32D5E3A0900BC55F7 /* Osmanthus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D90CCFC22D5E3A0C00BC55F7 /* OsmanthusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D90CCFDA2D5E3A0C00BC55F7 /* Build configuration list for PBXNativeTarget "OsmanthusTests" */;
+			buildPhases = (
+				D90CCFBF2D5E3A0C00BC55F7 /* Sources */,
+				D90CCFC02D5E3A0C00BC55F7 /* Frameworks */,
+				D90CCFC12D5E3A0C00BC55F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D90CCFC52D5E3A0C00BC55F7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D90CCFC62D5E3A0C00BC55F7 /* OsmanthusTests */,
+			);
+			name = OsmanthusTests;
+			packageProductDependencies = (
+			);
+			productName = OsmanthusTests;
+			productReference = D90CCFC32D5E3A0C00BC55F7 /* OsmanthusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D90CCFCC2D5E3A0C00BC55F7 /* OsmanthusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D90CCFDD2D5E3A0C00BC55F7 /* Build configuration list for PBXNativeTarget "OsmanthusUITests" */;
+			buildPhases = (
+				D90CCFC92D5E3A0C00BC55F7 /* Sources */,
+				D90CCFCA2D5E3A0C00BC55F7 /* Frameworks */,
+				D90CCFCB2D5E3A0C00BC55F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D90CCFCF2D5E3A0C00BC55F7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D90CCFD02D5E3A0C00BC55F7 /* OsmanthusUITests */,
+			);
+			name = OsmanthusUITests;
+			packageProductDependencies = (
+			);
+			productName = OsmanthusUITests;
+			productReference = D90CCFCD2D5E3A0C00BC55F7 /* OsmanthusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D90CCFAB2D5E3A0800BC55F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					D90CCFB22D5E3A0900BC55F7 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					D90CCFC22D5E3A0C00BC55F7 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = D90CCFB22D5E3A0900BC55F7;
+					};
+					D90CCFCC2D5E3A0C00BC55F7 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = D90CCFB22D5E3A0900BC55F7;
+					};
+				};
+			};
+			buildConfigurationList = D90CCFAE2D5E3A0800BC55F7 /* Build configuration list for PBXProject "Osmanthus" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D90CCFAA2D5E3A0800BC55F7;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D90CCFB42D5E3A0900BC55F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D90CCFB22D5E3A0900BC55F7 /* Osmanthus */,
+				D90CCFC22D5E3A0C00BC55F7 /* OsmanthusTests */,
+				D90CCFCC2D5E3A0C00BC55F7 /* OsmanthusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D90CCFB12D5E3A0900BC55F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D90CCFC12D5E3A0C00BC55F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D90CCFCB2D5E3A0C00BC55F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D90CCFAF2D5E3A0900BC55F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D90CCFBF2D5E3A0C00BC55F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D90CCFC92D5E3A0C00BC55F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D90CCFC52D5E3A0C00BC55F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D90CCFB22D5E3A0900BC55F7 /* Osmanthus */;
+			targetProxy = D90CCFC42D5E3A0C00BC55F7 /* PBXContainerItemProxy */;
+		};
+		D90CCFCF2D5E3A0C00BC55F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D90CCFB22D5E3A0900BC55F7 /* Osmanthus */;
+			targetProxy = D90CCFCE2D5E3A0C00BC55F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D90CCFD52D5E3A0C00BC55F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D90CCFD62D5E3A0C00BC55F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D90CCFD82D5E3A0C00BC55F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Osmanthus/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fujimori.Osmanthus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D90CCFD92D5E3A0C00BC55F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Osmanthus/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fujimori.Osmanthus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D90CCFDB2D5E3A0C00BC55F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fujimori.OsmanthusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Osmanthus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Osmanthus";
+			};
+			name = Debug;
+		};
+		D90CCFDC2D5E3A0C00BC55F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fujimori.OsmanthusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Osmanthus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Osmanthus";
+			};
+			name = Release;
+		};
+		D90CCFDE2D5E3A0C00BC55F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fujimori.OsmanthusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Osmanthus;
+			};
+			name = Debug;
+		};
+		D90CCFDF2D5E3A0C00BC55F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fujimori.OsmanthusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Osmanthus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D90CCFAE2D5E3A0800BC55F7 /* Build configuration list for PBXProject "Osmanthus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D90CCFD52D5E3A0C00BC55F7 /* Debug */,
+				D90CCFD62D5E3A0C00BC55F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D90CCFD72D5E3A0C00BC55F7 /* Build configuration list for PBXNativeTarget "Osmanthus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D90CCFD82D5E3A0C00BC55F7 /* Debug */,
+				D90CCFD92D5E3A0C00BC55F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D90CCFDA2D5E3A0C00BC55F7 /* Build configuration list for PBXNativeTarget "OsmanthusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D90CCFDB2D5E3A0C00BC55F7 /* Debug */,
+				D90CCFDC2D5E3A0C00BC55F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D90CCFDD2D5E3A0C00BC55F7 /* Build configuration list for PBXNativeTarget "OsmanthusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D90CCFDE2D5E3A0C00BC55F7 /* Debug */,
+				D90CCFDF2D5E3A0C00BC55F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D90CCFAB2D5E3A0800BC55F7 /* Project object */;
+}
