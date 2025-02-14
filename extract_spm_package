@@ -1,0 +1,30 @@
+#!/bin/bash
+
+# Xcode プロジェクトの .pbxproj ファイルのパス
+PROJECT_NAME="Osmanthus"  # 🔹 あなたのプロジェクト名に変更！
+PBXPROJ_FILE="$PROJECT_NAME.xcodeproj/project.pbxproj"
+
+# .pbxproj から Swift パッケージのリポジトリ URL を抽出
+echo "🔍 Xcode プロジェクトの .pbxproj を解析中..."
+PACKAGES=$(grep -oE 'https://github\.com/[a-zA-Z0-9\.\-]+/[a-zA-Z0-9\.\-]+' "$PBXPROJ_FILE" | sort -u)
+
+# 取得したパッケージ一覧を表示
+echo "📌 使用されている Swift パッケージ一覧:"
+for URL in $PACKAGES
+do
+    NAME=$(basename "$URL" .git)
+    echo "- $NAME ($URL)"
+done
+
+# JSON ファイルとして保存
+OUTPUT_FILE="spm_packages.json"
+echo "[" > "$OUTPUT_FILE"
+for URL in $PACKAGES
+do
+    NAME=$(basename "$URL" .git)
+    echo "{ \"name\": \"$NAME\", \"url\": \"$URL\" }," >> "$OUTPUT_FILE"
+done
+sed -i '' '$ s/,$//' "$OUTPUT_FILE"  # 最後のカンマを削除
+echo "]" >> "$OUTPUT_FILE"
+
+echo "✅ パッケージ一覧を $OUTPUT_FILE に保存しました！"
